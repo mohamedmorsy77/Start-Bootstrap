@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./css/bootstrap-5.3.3-dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Start Bootstrap</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Shop
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">All Products</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Popular Items</a></li>
+                <li><a class="dropdown-item" href="#">New Arrivals</a></li>
+              </ul>
+            </li>
+          </ul>
+          <button
+            type="submit"
+            class="btn btn-outline-dark d-flex align-items-center gap-3"
+          >
+            <i class="bi bi-cart"></i>
+            <span>Cart</span>
+            <span class="bg-black text-white rounded-pill ps-1 pe-1">0</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container mt-5 pt-5 mb-5">
+      <div class="row align-items-lg-center">
+        <div class="col-12 col-md-6">
+          <img class="img-fluid" src="./images/6c757d.jpg" alt="img" />
+        </div>
+        <div class="col-12 col-md-6 mt-sm-5">
+          <p>SKU: BST-498</p>
+          <h2 class="fs-1">Shop item template</h2>
+          <div>
+            <span class="text-decoration-line-through">$45.00</span>
+            <span>$40.00</span>
+          </div>
+
+          <p class="mt-2 mb-4 mt-lg-5 mb-lg-5 lh-base text-secondary fs-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi
+            alias magni, accusamus eius blanditiis delectus ipsam minima ea iste
+            laborum vero?
+          </p>
+
+          <div class="add-to-cart d-flex">
+            <input
+              class="form-control text-center me-3"
+              id="inputQuantity"
+              type="num"
+              value="1"
+              style="max-width: 3rem"
+            />
+            <button class="btn btn-outline-dark d-flex align-items-center gap-2">
+              <i class="bi bi-cart"></i>
+              <span> add to cart</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="carts bg-light p-5">
+      <div class="container ">
+        <h2 class="mb-5 fs-1">Related products</h2>
+        <div class="row flex-wrap row-gap-4">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="./images/6c757d (1).jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center d-flex flex-column gap-3 align-items-center">
+                <h5 class="card-title">Fancy Product</h5>
+                <p class="card-text">$40.00 - $80.00</p>
+                <a href="#" class="btn btn-outline-dark ">View Options</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 position-relative">
+            <div class="card">
+              <span class="position-absolute bg-dark text-white rounded-2  pt-1 pb-1 ps-3 pe-3 end-0 top-0 mt-2 me-2"> sale</span>
+              <img src="./images/6c757d (1).jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Special Item</h5>
+                <div class="links  mb-2 mt-2">
+                  <span><i class="bi bi-star-fill text-warning"></i></span>
+                  <span><i class="bi bi-star-fill text-warning"></i></span>
+                  <span><i class="bi bi-star-fill text-warning"></i></span>
+                  <span><i class="bi bi-star-fill text-warning"></i></span>
+                  <span><i class="bi bi-star-fill text-warning"></i></span>
+                </div>
+                <p class="card-text"><span class="text-muted text-decoration-line-through">$20.00</span> - $18.00</p>
+                <a href="#" class="btn btn-outline-dark">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 position-relative">
+            <div class="card">
+              <span class="position-absolute bg-dark text-white rounded-2  pt-1 pb-1 ps-3 pe-3 end-0 top-0 mt-2 me-2"> sale</span>
+              <img src="./images/6c757d (1).jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center d-flex flex-column gap-3 align-items-center ">
+                <h5 class="card-title">Sale Item</h5>
+                <p class="card-text"><span class="text-muted text-decoration-line-through">$50.00</span> - $25.00</p>
+                <a href="#" class="btn btn-outline-dark">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="./images/6c757d (1).jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Special Item</h5>
+                <div class="links  mb-2 mt-2">
+                  <span><i class="bi bi-star-fill text-warning"></i></span>
+                  <span><i class="bi bi-star-fill text-warning"></i></span>
+                  <span><i class="bi bi-star-fill text-warning"></i></span>
+                  <span><i class="bi bi-star-fill text-warning"></i></span>
+                  <span><i class="bi bi-star-fill text-warning"></i></span>
+                </div>
+                <p class="card-text">$40.00</p>
+                <a href="#" class="btn btn-outline-dark">add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <footer class="bg-dark py-5">
+     <div class="container">
+      <p class="text-center lh-base text-white m-0">Copyright © Your Website 2023</p>
+     </div>
+    </footer>
+    <script src="css/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
